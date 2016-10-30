@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Car.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Car.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CarDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Signin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="u_homepage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="b_car.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sell_car.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xiugai_xinxi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xiugai_mima.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_tourist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="a_homepage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="update.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Car.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CarDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Signin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="u_homepage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b_car.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sell_car.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xiugai_xinxi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xiugai_mima.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_tourist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="a_homepage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Car.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
